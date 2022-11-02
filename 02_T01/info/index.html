@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index_15</title>
+    <link rel="stylesheet" href="./style/bootstrap.css" />
+    <link rel="stylesheet" href="./style/vendor.css" />
+    <link rel="stylesheet" href="./style/main.css" />
+  </head>
+  <body>
+    <!-- <header id="header">
+      <nav id="navbar-example2" class="navbar px-3 py-0">
+        <div class="container">
+          <div
+            class="d-flex navbar-collapse justify-content-center justify-content-lg-between"
+            id="navbarTogglerDemo01"
+          >
+            <div class="d-flex d-lg-none align-items-center">
+              <button
+                class="btn"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
+              >
+                <span class="navbar-toggler-icon">
+                  <span class="line"></span>
+                  <span class="line"></span>
+                </span>
+              </button>
+            </div>
+
+            <ul
+              class="main_menu nav d-none d-lg-flex w-100 justify-content-around"
+            >
+              <li class="nav-item wow animate__fadeInDown">
+                <a class="nav-link px-2" href="#scrollspyHeading1"
+                  >home area1</a
+                >
+              </li>
+              <li
+                class="nav-item wow animate__fadeInDown"
+                data-wow-delay="0.2s"
+              >
+                <a class="nav-link px-2" href="#scrollspyHeading2"
+                  >home area2</a
+                >
+              </li>
+              <li
+                class="nav-item wow animate__fadeInDown"
+                data-wow-delay="0.4s"
+              >
+                <a class="nav-link px-2" href="#scrollspyHeading3"
+                  >home area3</a
+                >
+              </li>
+              <li
+                class="logo_li nav-item wow animate__fadeInDown d-flex align-items-center justify-content-center"
+                data-wow-delay="0.6s"
+              >
+                <a class="header_logo" href="#">LOGO</a>
+              </li>
+              <li
+                class="nav-item wow animate__fadeInDown"
+                data-wow-delay="0.8s"
+              >
+                <a class="nav-link px-2" href="#scrollspyHeading4"
+                  >home area4</a
+                >
+              </li>
+              <li class="nav-item wow animate__fadeInDown" data-wow-delay="1s">
+                <a class="nav-link px-2" href="#scrollspyHeading5"
+                  >home area5</a
+                >
+              </li>
+              <li class="nav-item wow animate__fadeInDown" data-wow-delay="1s">
+                <a class="nav-link px-2" href="#scrollspyHeading6"
+                  >home area6</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel"
+      >
+        <div class="offcanvas-header py-2">
+          <h5 class="offcanvas-title header_logo" id="offcanvasNavbarLabel">
+            logo
+          </h5>
+          <button
+            type="button"
+            class="btn-close text-reset"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body pt-0">
+          <ul
+            class="navbar-nav justify-content-end flex-grow-1 pe-3 mobile_menu"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">item1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">item2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">item3</a>
+              <ul class="sec_menu">
+                <li><a class="dropdown-item" href="#">item2-1</a></li>
+                <li><a class="dropdown-item" href="#">item2-2</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="smo_list w-100">
+            <li class="w-50">
+              <a href="#"
+                ><i class="fa-regular fa-user me-2 smo_btn"></i>login</a
+              >
+            </li>
+
+            <li class="w-50 join_btn"><a href="#">join now</a></li>
+          </ul>
+        </div>
+      </div>
+    </header> -->
+
+
+<section class="banner">
+  <div class="d-flex align-items-start">
+    <!-- <div
+      class="nav nav-pills"
+      id="v-pills-tab"
+      role="tablist"
+      aria-orientation="vertical"
+    >
+      <button
+        class="nav-link active"
+        id="v-pills-item_1-tab"
+        data-bs-toggle="pill"
+        data-bs-target="#v-pills-item_1"
+        type="button"
+        role="tab"
+        aria-controls="v-pills-item_1"
+        aria-selected="true"
+      >
+        <p>01</p>
+        item_1
+      </button>
+      <button
+        class="nav-link"
+        id="v-pills-item_2-tab"
+        data-bs-toggle="pill"
+        data-bs-target="#v-pills-item_2"
+        type="button"
+        role="tab"
+        aria-controls="v-pills-item_2"
+        aria-selected="false"
+      >
+        <p>02</p>
+        item_2
+      </button>
+      <button
+        class="nav-link"
+        id="v-pills-item_3-tab"
+        data-bs-toggle="pill"
+        data-bs-target="#v-pills-item_3"
+        type="button"
+        role="tab"
+        aria-controls="v-pills-item_3"
+        aria-selected="false"
+      >
+        <p>03</p>
+        item_3
+      </button>
+      <button
+        class="nav-link"
+        id="v-pills-item_4-tab"
+        data-bs-toggle="pill"
+        data-bs-target="#v-pills-item_4"
+        type="button"
+        role="tab"
+        aria-controls="v-pills-item_4"
+        aria-selected="false"
+      >
+        <p>04</p>
+        item_4
+      </button>
+    </div> -->
+    <div class="tab-content" id="v-pills-tabContent">
+      <div
+        class="tab-pane fade show active"
+        id="v-pills-item_1"
+        role="tabpanel"
+        aria-labelledby="v-pills-item_1-tab"
+        style="background-image: url(../images/1920960.png)"
+      >
+        <div class="content">
+          <!-- <h4 class="sec_title">Lorem ipsum dolor sit</h4> -->
+          <h3 class="area_title">Why Choose Our Template?</h3>
+          <ol>
+            <li class="h4 my-4">W3C standard.</li>
+            <li class="h4 my-4">Plates are easy to use and customize.</li>
+            <li class="h4 my-4">Fully Responsive.</li>
+            <li class="h4 my-4">beautiful layout design.</li>
+            <li class="h4 my-4">Eye-catching animation effects.</li>
+            <li class="h4 my-4">Excellent user experience.</li>
+          </ol>
+        </div>
+      </div>
+      <!-- <div
+        class="tab-pane fade"
+        id="v-pills-item_2"
+        role="tabpanel"
+        aria-labelledby="v-pills-item_2-tab"
+        style="background-image: url(https://fakeimg.pl/1920x960/aaaaaa/c1c1c1)"
+      >
+        <div class="content">
+          <h4 class="sec_title">Lorem ipsum dolor sit</h4>
+          <h3 class="area_title">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          </h3>
+        </div>
+      </div> -->
+      <!-- <div
+        class="tab-pane fade"
+        id="v-pills-item_3"
+        role="tabpanel"
+        aria-labelledby="v-pills-item_3-tab"
+        style="background-image: url(https://fakeimg.pl/1920x960/aaaaaa/c1c1c1)"
+      >
+        <div class="content">
+          <h4 class="sec_title">Lorem ipsum dolor sit</h4>
+          <h3 class="area_title">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          </h3>
+        </div>
+      </div> -->
+      <!-- <div
+        class="tab-pane fade"
+        id="v-pills-item_4"
+        role="tabpanel"
+        aria-labelledby="v-pills-item_4-tab"
+        style="background-image: url(https://fakeimg.pl/1920x960/aaaaaa/c1c1c1)"
+      >
+        <div class="content">
+          <h4 class="sec_title">Lorem ipsum dolor sit</h4>
+          <h3 class="area_title">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          </h3>
+        </div>
+      </div> -->
+    </div>
+  </div>
+</section>
+
+
+<section class="area10">
+  <div class="container">
+    <!-- <div class="row">
+                <div class="col-12 d-flex align-items-center justify-content-between">
+                    <h3 class="area_title mb-0">arae descript</h3>
+                    <a href="#" class="more_btn">more</a>
+                </div>
+            </div> -->
+    <div class="row">
+      <div class="col-12">
+        <h3 class="area_title mb-4 text-center">we support</h3>
+      </div>
+      <div class="col-12">
+        <div class="swiper area15_Swiper_10">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="pic_box">
+                <img src="../images/HTML5_Badge.svg" alt="" />
+              </div>
+              <p class="item_title">HTML</p>
+              <!-- <p class="item_descript">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                delectus consequuntur enim ut nostrum. Laborum, repellendus
+                ratione? Vel nemo voluptatum, iusto possimus quaerat natus
+                debitis aspernatur in soluta magni ratione!
+              </p> -->
+            </div>
+
+            <div class="swiper-slide">
+              <div class="pic_box">
+                <img src="../images/css-3-seeklogo.com.svg" alt="" />
+              </div>
+              <p class="item_title">CSS</p>
+              <!-- <p class="item_descript">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                delectus consequuntur enim ut nostrum. Laborum, repellendus
+                ratione? Vel nemo voluptatum, iusto possimus quaerat natus
+                debitis aspernatur in soluta magni ratione!
+              </p> -->
+            </div>
+
+            <div class="swiper-slide">
+              <div class="pic_box">
+                <img src="../images/bootstrap.png" alt="" />
+              </div>
+              <p class="item_title">Bootstrap</p>
+              <!-- <p class="item_descript">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                delectus consequuntur enim ut nostrum. Laborum, repellendus
+                ratione? Vel nemo voluptatum, iusto possimus quaerat natus
+                debitis aspernatur in soluta magni ratione!
+              </p> -->
+            </div>
+
+            <div class="swiper-slide">
+              <div class="pic_box">
+                <img src="../images/RWD.jpg" alt="" />
+              </div>
+              <p class="item_title">Responsive</p>
+              <!-- <p class="item_descript">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                delectus consequuntur enim ut nostrum. Laborum, repellendus
+                ratione? Vel nemo voluptatum, iusto possimus quaerat natus
+                debitis aspernatur in soluta magni ratione!
+              </p> -->
+            </div>
+          </div>
+
+          <!-- <div class="swiper-pagination"></div> -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="area04">
+  <div class="container">
+    <!-- <div class="row">
+                <div class="col-12 d-flex align-items-center justify-content-between">
+                    <h3 class="area_title mb-0">arae descript</h3>
+                    <a href="#" class="more_btn">more</a>
+                </div>
+            </div> -->
+    <div class="row">
+      <div class="col-12 title_box d-flex flex-column mb-4 align-items-center">
+        <h3 class="area_title mb-0">DOME</h3>
+        <!-- <h4 class="title">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam porro
+          voluptate dolorum eveniet, unde harum rerum fugit adipisci architecto
+          vel tempore, incidunt nobis quis doloribus ea suscipit dolorem aut.
+          Fugit.
+        </h4> -->
+        <!-- <p class="descript">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+          accusamus sequi nostrum consequatur quaerat a non molestiae sit
+          obcaecati, similique repudiandae rerum qui ea neque ullam commodi
+          voluptatibus iste doloremque?
+        </p> -->
+        <div class="swiper-pagination justify-content-center"></div>
+      </div>
+      <div class="col-12">
+        <div class="swiper area15_Swiper_04">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide position-relative">
+              <div class="pic_box">
+                <img src="../images/600500_1.png" alt="" />
+              </div>
+              <p class="item_title text-center">Designer</p>
+              <!-- <p class="item_descript">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                delectus consequuntur enim ut nostrum. Laborum, repellendus
+                ratione? Vel nemo voluptatum, iusto possimus quaerat natus
+                debitis aspernatur in soluta magni ratione!
+              </p> -->
+              <!-- <div class="action_box">
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#">buy!</a>
+              </div> -->
+              <a href="https://webdevamy.github.io/02_T01/ver_01/index.html" target="_blank" class="stretched-link"></a>
+            </div>
+
+            <div class="swiper-slide position-relative">
+              <div class="pic_box">
+                <img src="../images/600500_2.png" alt="" />
+              </div>
+              <p class="item_title text-center">Coach</p>
+              <!-- <p class="item_descript">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                delectus consequuntur enim ut nostrum. Laborum, repellendus
+                ratione? Vel nemo voluptatum, iusto possimus quaerat natus
+                debitis aspernatur in soluta magni ratione!
+              </p> -->
+              <!-- <div class="action_box">
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#">buy!</a>
+              </div> -->
+              <a href="https://webdevamy.github.io/02_T01/ver_02/index.html" target="_blank" class="stretched-link"></a>
+            </div>
+
+            <div class="swiper-slide position-relative">
+              <div class="pic_box">
+                <img src="../images/600500_3.png" alt="" />
+              </div>
+              <p class="item_title text-center">Manicurist</p>
+              <!-- <p class="item_descript">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+                delectus consequuntur enim ut nostrum. Laborum, repellendus
+                ratione? Vel nemo voluptatum, iusto possimus quaerat natus
+                debitis aspernatur in soluta magni ratione!
+              </p> -->
+              <!-- <div class="action_box">
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#">buy!</a>
+              </div> -->
+              <a href="https://webdevamy.github.io/02_T01/ver_03/index.html" target="_blank" class="stretched-link"></a>
+            </div>
+
+           
+          </div>
+
+          <!-- <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<footer class="footer">
+  <div class="container">
+    <!-- <div class="row pb-lg-5">
+      <div class="col-6 col-sm-4 col-xl-2 wow animate__fadeInUp">
+        <dl
+          class="footer_list wow animate__fadeInUp mb-5"
+          data-wow-delay="0s"
+          data-wow-duration="1s"
+        >
+          <dt class="footer_list_title">Contact Us</dt>
+          <dd>T +886-4 2259-9895</dd>
+          <dd>F +886-4 2259-9895</dd>
+        </dl>
+      </div>
+
+      <div class="col-6 col-sm-4 col-xl-2 wow animate__fadeInUp">
+        <dl
+          class="footer_list wow animate__fadeInUp mb-5"
+          data-wow-delay="0s"
+          data-wow-duration="1s"
+        >
+          <dt class="footer_list_title">Contact Us</dt>
+          <dd>T +886-4 2259-9895</dd>
+          <dd>F +886-4 2259-9895</dd>
+        </dl>
+      </div>
+
+      <div class="col-6 col-sm-4 col-xl-2 wow animate__fadeInUp">
+        <dl
+          class="footer_list wow animate__fadeInUp mb-5"
+          data-wow-delay="0s"
+          data-wow-duration="1s"
+        >
+          <dt class="footer_list_title">Contact Us</dt>
+          <dd>T +886-4 2259-9895</dd>
+          <dd>F +886-4 2259-9895</dd>
+        </dl>
+      </div>
+
+      <div class="col-6 col-sm-4 col-xl-2 wow animate__fadeInUp">
+        <dl
+          class="footer_list wow animate__fadeInUp mb-5"
+          data-wow-delay="0s"
+          data-wow-duration="1s"
+        >
+          <dt class="footer_list_title">Contact Us</dt>
+          <dd>T +886-4 2259-9895</dd>
+          <dd>F +886-4 2259-9895</dd>
+        </dl>
+      </div>
+
+      <div class="col-6 col-sm-4 col-xl-2 wow animate__fadeInUp">
+        <dl
+          class="footer_list wow animate__fadeInUp mb-5"
+          data-wow-delay="0s"
+          data-wow-duration="1s"
+        >
+          <dt class="footer_list_title">Contact Us</dt>
+          <dd>T +886-4 2259-9895</dd>
+          <dd>F +886-4 2259-9895</dd>
+        </dl>
+      </div>
+
+      <div class="col-6 col-sm-4 col-xl-2 wow animate__fadeInUp">
+        <dl
+          class="footer_list wow animate__fadeInUp mb-5"
+          data-wow-delay="0s"
+          data-wow-duration="1s"
+        >
+          <dt class="footer_list_title">Contact Us</dt>
+          <dd>T +886-4 2259-9895</dd>
+          <dd>F +886-4 2259-9895</dd>
+        </dl>
+      </div>
+    </div> -->
+<!-- 
+    <div class="row position-relative pb-5">
+      <div class="col-12 col-md-6 col-xl-3">
+        <p class="footer_logo mb-4">Logo</p>
+      </div>
+
+      <div class="col-6 col-xl-3 wow animate__fadeInUp">
+        <dl
+          class="footer_list wow animate__fadeInUp mb-5"
+          data-wow-delay="0s"
+          data-wow-duration="1s"
+        >
+          <dt class="footer_list_title">Contact Us</dt>
+          <dd>T +886-4 2259-9895</dd>
+          <dd>F +886-4 2259-9895</dd>
+        </dl>
+        <dl
+          class="footer_list wow animate__fadeInUp mb-5"
+          data-wow-delay="0.2s"
+          data-wow-duration="1.4s"
+        >
+          <dt class="footer_list_title">Contact Us</dt>
+          <dd>T +886-4 2259-9895</dd>
+          <dd>F +886-4 2259-9895</dd>
+        </dl>
+      </div>
+
+      <div class="col-6 col-xl-3 wow animate__fadeInUp">
+        <dl
+          class="footer_list wow animate__fadeInUp mb-5"
+          data-wow-delay="0s"
+          data-wow-duration="1s"
+        >
+          <dt class="footer_list_title">Contact Us</dt>
+          <dd>T +886-4 2259-9895</dd>
+          <dd>F +886-4 2259-9895</dd>
+        </dl>
+        <dl
+          class="footer_list wow animate__fadeInUp mb-5"
+          data-wow-delay="0.2s"
+          data-wow-duration="1.4s"
+        >
+          <dt class="footer_list_title">Contact Us</dt>
+          <dd>T +886-4 2259-9895</dd>
+          <dd>F +886-4 2259-9895</dd>
+        </dl>
+      </div>
+
+      <div class="col-12 col-md-6 col-xl-3">
+        <dl
+          class="footer_list wow animate__fadeInUp"
+          data-wow-delay="0.2s"
+          data-wow-duration="1.4s"
+        >
+          <dt class="footer_list_title">share</dt>
+          <dd>
+            <ul class="smo_list">
+              <li class="item">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              </li>
+              <li class="item">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li>
+              <li class="item">
+                <a href="#"><i class="fa-brands fa-line"></i></a>
+              </li>
+            </ul>
+          </dd>
+        </dl>
+
+        <dl
+          class="footer_list wow animate__fadeInUp mb-5"
+          data-wow-delay="0.2s"
+          data-wow-duration="1.4s"
+        >
+          <dt class="footer_list_title">E-mail</dt>
+          <dd>
+            <div class="form-floating">
+              <input
+                type="password"
+                class="form-control"
+                id="floatingPassword"
+                placeholder="Password"
+              />
+              <label for="floatingPassword"
+                ><i class="fa-regular fa-envelope me-2"></i>E-mail</label
+              >
+            </div>
+          </dd>
+        </dl>
+      </div>
+
+      <div class="gotop position-absolute">
+        <div class="arr"></div>
+      </div>
+    </div> -->
+    <div
+      class="row wow animate__fadeInUp align-items-center py-3 copyright_box"
+    >
+      <p class="m-0 w-auto">Copyright © 2022 DOME All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="script/vendor.js"></script>
+  <script src="script/index.js"></script>
+
+
+</body>
+</html>
+
+
+
