@@ -573,7 +573,8 @@ section {
 
 .footer {
   background-color: #000;
-  color: #fff; }
+  color: #fff;
+  position: relative; }
   .footer a {
     color: #fff; }
   .footer .footer_logo_box {
@@ -620,6 +621,18 @@ section {
         -ms-flex-item-align: start;
             align-self: flex-start;
         padding-top: 6px; } }
+  .footer .setting_btn {
+    border-radius: 50%;
+    position: absolute;
+    bottom: 70px;
+    right: 30px; }
+
+.modal-content {
+  color: #000; }
+  .modal-content p, .modal-content a {
+    color: #000; }
+  .modal-content a:hover, .modal-content a:focus {
+    color: #ec2309; }
 
 .smo_list {
   display: -webkit-box;

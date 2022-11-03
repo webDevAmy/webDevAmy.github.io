@@ -9808,6 +9808,13 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+:root {
+  --main_color: #f4aa10;
+  --sec_color: #c36900;
+  --three_color: #b4376b;
+  --grey_color: #707070;
+  --light_grey_color: #f5f5f5; }
+
 html,
 body {
   font-family: "Roboto", sans-serif; }
@@ -9841,9 +9848,9 @@ section {
   font-size: clamp(16px, 1.5vw, 20px);
   display: inline-block;
   padding: 6px 52px 6px 22px;
-  border: 1px solid #707070;
+  border: 1px solid var(--grey_color);
   position: relative;
-  color: #707070; }
+  color: var(--grey_color); }
   @media (max-width: 991px) {
     .more_btn {
       font-size: clamp(16px, 1.3vw, 18px);
@@ -9852,7 +9859,7 @@ section {
     content: "";
     width: 36px;
     height: 1px;
-    background-color: #707070;
+    background-color: var(--grey_color);
     position: absolute;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
@@ -9865,7 +9872,7 @@ section {
 
 .area_title {
   text-transform: capitalize;
-  color: #f4aa10;
+  color: var(--main_color);
   font-size: clamp(24px, 3.85vw, 74px);
   font-weight: 700;
   margin-bottom: clamp(16px, 1.25vw, 20px); }
@@ -9916,7 +9923,7 @@ section {
   height: 12px !important;
   opacity: 1;
   background-color: transparent;
-  border: 1px solid #707070;
+  border: 1px solid var(--grey_color);
   -webkit-transition: background 0.3s;
   transition: background 0.3s; }
   @media (max-width: 991px) {
@@ -9924,7 +9931,7 @@ section {
       width: 8px !important;
       height: 8px !important; } }
   .swiper-pagination-bullet:hover {
-    background-color: #707070; }
+    background-color: var(--grey_color); }
 
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
@@ -9935,7 +9942,7 @@ section {
       margin: 0 6px; } }
 
 .swiper-pagination-bullet-active {
-  background-color: #707070 !important; }
+  background-color: var(--grey_color) !important; }
 
 @-webkit-keyframes picZoom {
   0% {
@@ -10078,7 +10085,7 @@ section {
     display: block;
     width: 20px;
     height: 3px;
-    background-color: #c36900;
+    background-color: var(--sec_color);
     margin: 6px 0;
     -webkit-transition: background 0.3s;
     transition: background 0.3s; }

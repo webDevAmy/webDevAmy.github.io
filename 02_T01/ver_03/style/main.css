@@ -1,4 +1,11 @@
 0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+  --main_color: #e78e8f;
+  --sec_color: #e3acac;
+  --three_color: #a490b6;
+  --grey_color: #707070;
+  --light_grey_color: #f5f5f5; }
+
 html,
 body {
   font-family: "Roboto", sans-serif; }
@@ -32,9 +39,9 @@ section {
   font-size: clamp(16px, 1.5vw, 20px);
   display: inline-block;
   padding: 6px 52px 6px 22px;
-  border: 1px solid #707070;
+  border: 1px solid var(--grey_color);
   position: relative;
-  color: #707070; }
+  color: var(--grey_color); }
   @media (max-width: 991px) {
     .more_btn {
       font-size: clamp(16px, 1.3vw, 18px);
@@ -43,7 +50,7 @@ section {
     content: "";
     width: 36px;
     height: 1px;
-    background-color: #707070;
+    background-color: var(--grey_color);
     position: absolute;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
@@ -56,7 +63,7 @@ section {
 
 .area_title {
   text-transform: capitalize;
-  color: #e78e8f;
+  color: var(--main_color);
   font-size: clamp(24px, 3.85vw, 74px);
   font-weight: 700;
   margin-bottom: clamp(16px, 1.25vw, 20px); }
@@ -107,7 +114,7 @@ section {
   height: 12px !important;
   opacity: 1;
   background-color: transparent;
-  border: 1px solid #707070;
+  border: 1px solid var(--grey_color);
   -webkit-transition: background 0.3s;
   transition: background 0.3s; }
   @media (max-width: 991px) {
@@ -115,7 +122,7 @@ section {
       width: 8px !important;
       height: 8px !important; } }
   .swiper-pagination-bullet:hover {
-    background-color: #707070; }
+    background-color: var(--grey_color); }
 
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets
@@ -128,7 +135,7 @@ section {
       margin: 0 6px; } }
 
 .swiper-pagination-bullet-active {
-  background-color: #707070 !important; }
+  background-color: var(--grey_color) !important; }
 
 @-webkit-keyframes picZoom {
   0% {
@@ -267,7 +274,7 @@ section {
 
 .header_logo {
   font-weight: 700;
-  color: #e78e8f; }
+  color: var(--main_color); }
 
 #header {
   position: fixed;
@@ -285,19 +292,19 @@ section {
     -webkit-transition: color 0.3s;
     transition: color 0.3s; }
     #header .nav-link.active {
-      color: #e78e8f; }
+      color: var(--main_color); }
     #header .nav-link:hover {
-      color: #e78e8f; }
+      color: var(--main_color); }
   #header .smo_list a {
     padding: clamp(14px, 1.04vw, 20px) clamp(24px, 2.08vw, 40px);
     -webkit-transition: color 0.3s;
     transition: color 0.3s; }
     #header .smo_list a:hover {
-      color: #e78e8f; }
+      color: var(--main_color); }
     #header .smo_list a i {
       font-size: 20px; }
   #header .smo_list .link_btn a {
-    background-color: #e3acac;
+    background-color: var(--sec_color);
     -webkit-transition: background 0.3s;
     transition: background 0.3s;
     color: #fff;
@@ -309,7 +316,7 @@ section {
       display: block;
       width: 150%;
       height: 100%;
-      background-color: #e78e8f;
+      background-color: var(--main_color);
       -webkit-transform: translateX(-110%);
               transform: translateX(-110%);
       -webkit-transition: -webkit-transform 0.5s;
@@ -360,7 +367,7 @@ section {
     -webkit-transition: color 0.3s;
     transition: color 0.3s; }
     .mobile_menu .sec_menu a:hover {
-      color: #e78e8f; }
+      color: var(--main_color); }
 
 .mobile_menu + .smo_list .item {
   width: 50%; }
@@ -369,11 +376,11 @@ section {
   -webkit-transition: color 0.3s;
   transition: color 0.3s; }
   .mobile_menu .nav-link:hover {
-    color: #e78e8f; }
+    color: var(--main_color); }
 
 .banner {
   margin-top: 40px;
-  background-color: #e3acac;
+  background-color: var(--sec_color);
   background-color: #999;
   background-color: #ececec;
   background-color: #1f0038;
@@ -416,7 +423,7 @@ section {
         width: 60%; } }
     .banner .content_box .main_title {
       text-transform: capitalize;
-      color: #e78e8f;
+      color: var(--main_color);
       font-size: clamp(24px, 3.85vw, 74px);
       font-weight: 700;
       margin-bottom: clamp(20px, 2vw, 40px);
@@ -495,7 +502,7 @@ section {
 .Info_block_A {
   padding-top: clamp(40px, 4vw, 80px);
   padding-bottom: clamp(50px, 5vw, 100px);
-  background-color: #e3acac;
+  background-color: var(--sec_color);
   background-color: #999;
   background-color: #ececec;
   background-color: #1f0038;
@@ -529,7 +536,7 @@ section {
           padding: 10px 0; } }
     .Info_block_A .pic_list .sec_title {
       font-size: clamp(18px, 1.2vw, 22px);
-      color: #707070; }
+      color: var(--grey_color); }
     .Info_block_A .pic_list .title {
       text-transform: uppercase;
       font-size: clamp(24px, 1.875vw, 36px);
@@ -552,7 +559,7 @@ section {
                 transform: translate(-50%, -50%);
         left: 50%;
         top: 50%;
-        background-color: #a490b6;
+        background-color: var(--three_color);
         opacity: 0.6;
         -webkit-transition: width 0.3s, height 0.3s;
         transition: width 0.3s, height 0.3s;
@@ -664,7 +671,7 @@ section {
       -webkit-box-orient: vertical;
       overflow: hidden;
       text-overflow: ellipsis;
-      border-bottom: 1px solid #f5f5f5; }
+      border-bottom: 1px solid var(--light_grey_color); }
     .Info_block_B_Swiper .swiper-slide .item_descript {
       opacity: 0;
       -webkit-transform: translateY(50%);
@@ -777,7 +784,7 @@ section {
     bottom: 0;
     z-index: 1;
     list-style: none;
-    background-color: #e3acac;
+    background-color: var(--sec_color);
     background-color: #999;
     background-color: #ececec;
     background-color: #1f0038;
@@ -831,7 +838,7 @@ section {
   .Info_block_C .content {
     text-align: center; }
     .Info_block_C .content + .content {
-      border-top: 1px solid #f5f5f5;
+      border-top: 1px solid var(--light_grey_color);
       padding-top: 2vw; }
       @media (max-width: 480px) {
         .Info_block_C .content + .content:last-child {
@@ -858,7 +865,7 @@ section {
       overflow: hidden;
       text-overflow: ellipsis;
       font-size: clamp(16px, 1vw, 18px);
-      color: #707070;
+      color: var(--grey_color);
       margin-bottom: 2vw;
       margin-top: clamp(20px, 2vw, 40px);
       padding-top: clamp(18px, 2vw, 36px);
@@ -949,7 +956,7 @@ section {
     transition: background 0.3s, filter 0.3s, -webkit-filter 0.3s; }
     .Info_block_C .swiper-button-next:hover,
     .Info_block_C .swiper-button-prev:hover {
-      background-color: #e78e8f; }
+      background-color: var(--main_color); }
   .Info_block_C .swiper-button-next:hover,
   .Info_block_C .swiper-button-prev:hover {
     background-color: transparent; }
@@ -975,7 +982,7 @@ section {
       position: absolute;
       width: 100%;
       height: 1px;
-      background-color: #707070;
+      background-color: var(--grey_color);
       -webkit-transform: translateY(-50%);
               transform: translateY(-50%);
       top: 50%; }
@@ -1042,7 +1049,7 @@ section {
       display: block;
       width: calc(100% - 40px);
       height: 1px;
-      background-color: #f5f5f5;
+      background-color: var(--light_grey_color);
       position: absolute;
       top: 0;
       -webkit-transform: translateX(-50%);
@@ -1068,7 +1075,7 @@ section {
         padding-top: 10px;
         padding-bottom: 10px; } }
     .FAQ_block .accordion-button:hover .FAQ_item_ccordion_title, .FAQ_block .accordion-button:focus .FAQ_item_ccordion_title {
-      color: #e78e8f; }
+      color: var(--main_color); }
   .FAQ_block .FAQ_item_ccordion_title {
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -1159,10 +1166,10 @@ section {
       -webkit-line-clamp: 1;
       font-weight: 400; }
       .contact_block .text_box .sec_title a {
-        color: #e78e8f;
+        color: var(--main_color);
         -webkit-transition: color 0.3s, border 0.3s;
         transition: color 0.3s, border 0.3s;
-        border: 2px #e78e8f solid;
+        border: 2px var(--main_color) solid;
         display: inline-block;
         padding: 2px 24px 4px 24px;
         border-radius: 50px;
@@ -1197,7 +1204,7 @@ section {
   .footer .form-control:focus {
     background-color: transparent; }
   .footer .copyright_box {
-    border-top: 1px solid #f5f5f5;
+    border-top: 1px solid var(--light_grey_color);
     padding: 20px 0; }
     @media (max-width: 768px) {
       .footer .copyright_box p {
@@ -1235,7 +1242,7 @@ section {
     margin: 0 0.8vw;
     font-size: clamp(20px, 1.6vw, 28px); }
     .smo_list .item:hover a, .smo_list .item:focus a {
-      color: #e78e8f;
+      color: var(--main_color);
       -webkit-transform: rotate(360deg);
               transform: rotate(360deg); }
     .smo_list .item a {
